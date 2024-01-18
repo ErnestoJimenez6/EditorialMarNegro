@@ -47,9 +47,14 @@ header{
     background-color:$negro;
     top:0;
     z-index:10000;
-    a{
-        text-decoration:none;
+    li{
+        font-family:"Creepster", sans-serif;
         font-size:2rem;
+    }
+    a{
+        font-family:"Creepster", sans-serif;
+        font-size:2rem;
+        text-decoration:none;
     }
 }
 

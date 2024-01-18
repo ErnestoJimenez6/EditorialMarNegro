@@ -47,9 +47,14 @@ header {
   top: 0;
   z-index: 10000;
 }
-header a {
-  text-decoration: none;
+header li {
+  font-family: "Creepster", sans-serif;
   font-size: 2rem;
+}
+header a {
+  font-family: "Creepster", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 /* MAIN INDEX */
