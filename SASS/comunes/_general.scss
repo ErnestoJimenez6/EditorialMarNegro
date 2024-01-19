@@ -3,6 +3,7 @@
 $blanco:#ffffff;
 $rojo:#b30000;
 $negro:#212121;
+$verde:rgb(0, 255, 13);
 $font:'creepster',sans-serif;
 
 *{
@@ -26,7 +27,7 @@ h2{
 h3{
     font-size:2rem;
     color:$blanco;
-    text-shadow:2px 0px 20px rgb(0, 255, 13);
+    text-shadow:2px 0px 20px $verde;
     text-align:center;
 }
 body{

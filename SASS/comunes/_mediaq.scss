@@ -2,7 +2,7 @@
 /* MOBILE */
 @media only screen and (max-width:480px){
     h1{
-        font-size: 3rem;
+        font-size:3rem;
     }
     .banner img{
         width:370px;
@@ -22,12 +22,10 @@
         'img1'
         'txt2'
         'img2'
-        'txt3';
+        'txt3'
+        'img3';
         grid-template-columns:95%;
-        grid-template-rows:repeat(5,200px);
-    }
-    .gridImg3{
-        display:none;
+        grid-template-rows:repeat(6,200px);
     }
 
     /* contacto */
