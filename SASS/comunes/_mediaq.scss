@@ -1,0 +1,45 @@
+/* MediaQ */
+/* MOBILE */
+@media only screen and (max-width:480px){
+    h1{
+        font-size: 3rem;
+    }
+    .banner img{
+        width:370px;
+    }
+    .flex{
+        flex-direction:column;
+        align-items:center;
+    }
+    .tituloDePag{
+        font-size:2rem;
+    }
+
+    /* Nosotros */
+    .gridConteiner{
+        grid-template-areas:
+        'txt1'
+        'img1'
+        'txt2'
+        'img2'
+        'txt3';
+        grid-template-columns:95%;
+        grid-template-rows:repeat(5,200px);
+    }
+    .gridImg3{
+        display:none;
+    }
+
+    /* contacto */
+    .contacto-container{
+        flex-direction:column;
+    }
+    .iframe-container,
+    .formContainer{
+        width:100%;
+    }
+    iframe{
+        max-width:100%;
+        width:100%;
+    }
+}

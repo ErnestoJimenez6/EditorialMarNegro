@@ -7,11 +7,10 @@
 }
 
 html {
-  font-family: "creepster";
+  font-family: "creepster", sans-serif;
 }
 
 h1 {
-  font-family: "creepster", serif;
   font-size: 8rem;
   text-align: center;
 }
@@ -22,7 +21,6 @@ h2 {
 }
 
 h3 {
-  font-family: "creepster";
   font-size: 2rem;
   color: #ffffff;
   text-shadow: 2px 0px 20px rgb(0, 255, 13);
@@ -30,6 +28,7 @@ h3 {
 }
 
 body {
+  font-family: "creepster", sans-serif;
   background-image: url("../img/BG10.png");
   background-size: cover;
   background-attachment: fixed;
@@ -48,16 +47,15 @@ header {
   z-index: 10000;
 }
 header li {
-  font-family: "Creepster", sans-serif;
+  font-family: "creepster", sans-serif;
   font-size: 2rem;
 }
 header a {
-  font-family: "Creepster", sans-serif;
+  font-family: "creepster", sans-serif;
   font-size: 2rem;
   text-decoration: none;
 }
 
-/* MAIN INDEX */
 /*BANNER*/
 .banner {
   display: flex;
@@ -74,11 +72,23 @@ header a {
   margin: 0 auto;
 }
 .banner h3 {
-  font-size: 2rem;
   margin-bottom: 20px;
 }
 
-/* CAROUSEL */
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #212121;
+  color: #ffffff;
+  padding: 10px;
+}
+footer img {
+  width: 25px;
+  margin: 0 10px;
+  filter: invert(1);
+}
+
+/* INDEX */
 .carousel-item img {
   max-height: 100vh;
   width: auto;
@@ -100,10 +110,9 @@ header a {
   overflow: hidden;
 }
 
-/*  LIBROS */
 /* LIBROS */
 .card {
-  font-family: "creepster";
+  font-family: "creepster", sans-serif;
   background-color: #212121;
   color: #ffffff;
 }
@@ -117,7 +126,7 @@ header a {
 .gridConteiner {
   display: grid;
   grid-template-areas: "img1 txt1 txt1" "txt2 txt2 img2" "img3 txt3 txt3";
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 300px);
   justify-items: center;
   align-items: center;
@@ -128,9 +137,10 @@ header a {
   column-gap: 2px;
 }
 .gridConteiner img {
-  width: auto;
+  width: 100%;
   height: 100%;
   max-width: 100%;
+  object-fit: cover;
   border-radius: 5px;
   display: block;
   margin: 0 auto;
@@ -207,7 +217,7 @@ header a {
   margin: 0 auto;
 }
 
-/* formulario */
+/*formulario*/
 .formContainer {
   flex: 1;
   padding: 20px;
@@ -241,19 +251,6 @@ header a {
 }
 .formContainer input[type=submit]:hover {
   background-color: #b30000;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  background-color: #212121;
-  color: #ffffff;
-  padding: 10px;
-}
-footer img {
-  width: 25px;
-  margin: 0 10px;
-  filter: invert(1);
 }
 
 /* MediaQ */

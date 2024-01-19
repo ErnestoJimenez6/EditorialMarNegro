@@ -1,0 +1,22 @@
+/* INDEX */
+.carousel-item{
+    img{
+        max-height:100vh;
+        width:auto;
+        height:1000px;
+        object-fit:cover;
+    }
+    p,h5{
+        color:$rojo;
+        text-shadow:cyan;
+    }
+}
+.carousel-container{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-color:darkslategrey;
+    background-size:cover;
+    background-position:center;
+    overflow:hidden;
+}
