@@ -52,8 +52,10 @@
         border-radius:3px;
         cursor:pointer;
         transition:background-color 0.3s ease;
-    }
-    input[type='submit']:hover{
-        background-color:$rojo;
+        &:hover{
+            background-color:$negro;
+            color:$verde;
+            border-color:$rojo;
+        }
     }
 }

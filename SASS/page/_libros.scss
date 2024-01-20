@@ -7,4 +7,11 @@
 .btn{
     background-color:$rojo;
     border-color:$rojo;
+    &:hover{
+        background-color:$negro;
+        border-color:$rojo;
+        color:$verde;
+        transform:scale(1.1,1.1);
+        transition:1s;
+    }
 }

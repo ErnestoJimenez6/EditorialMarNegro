@@ -51,12 +51,14 @@ header{
     li{
         font-family:$font;
         font-size:2rem;
-    }
-    a{
-        font-family:$font;
-        font-size:2rem;
         text-decoration:none;
-    }
+        &:hover{
+            color:$verde;
+            transform:scale(1.1,1.1);
+            text-decoration:underline;
+            transition:1s;
+        }
+    } 
 }
 
 /*BANNER*/

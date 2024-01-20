@@ -49,13 +49,11 @@ header {
 header li {
   font-family: "creepster", sans-serif;
   font-size: 2rem;
-  text-decoration: none;
 }
-header li:hover {
-  color: #00ff0d;
-  transform: scale(1.1, 1.1);
-  text-decoration: underline;
-  transition: 1s;
+header a {
+  font-family: "creepster", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 /*BANNER*/
@@ -129,10 +127,6 @@ footer img {
 }
 .btn:hover {
   background-color: #212121;
-  border-color: #b30000;
-  color: #00ff0d;
-  transform: scale(1.1, 1.1);
-  transition: 1s;
 }
 
 /* NOSOTROS */
@@ -140,7 +134,7 @@ footer img {
   display: grid;
   grid-template-areas: "img1 txt1" "txt2 img2" "img3 txt3";
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 500px);
+  grid-template-rows: repeat(2, 300px);
   justify-items: center;
   align-items: center;
   justify-content: center;
@@ -160,7 +154,7 @@ footer img {
 }
 .gridConteiner p {
   font-size: 1.5rem;
-  text-align: center;
+  text-align: justify;
   margin: 0 25px;
   padding: 5px;
   font-weight: 600;
@@ -200,7 +194,7 @@ footer img {
 .imgProx {
   display: block;
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 25%;
   height: auto;
 }
 
@@ -263,10 +257,8 @@ footer img {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.formContainer .btnFormulario:hover {
-  background-color: #212121;
-  color: #00ff0d;
-  border-color: #b30000;
+.formContainer input[type=submit]:hover {
+  background-color: #b30000;
 }
 
 /* MediaQ */
@@ -305,4 +297,4 @@ footer img {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css~.map */
