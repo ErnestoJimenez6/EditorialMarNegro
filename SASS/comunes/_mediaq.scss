@@ -1,11 +1,6 @@
 /* MediaQ */
 /* MOBILE */
 @media only screen and (max-width:480px){
-    h1{
-        font-size:2rem;
-        margin:10px 0;
-    }
-
     header{
         li{
             &:hover{
@@ -14,7 +9,6 @@
             }
         }
     }
-
     .banner img{
         width:370px;
     }
