@@ -149,7 +149,7 @@ footer img {
   align-items: center;
   justify-content: center;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   row-gap: 2px;
   column-gap: 2px;
 }
@@ -281,7 +281,8 @@ footer img {
 /* MOBILE */
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin: 10px 0;
   }
   header li:hover {
     transform: none;
