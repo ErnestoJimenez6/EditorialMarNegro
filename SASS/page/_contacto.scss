@@ -1,7 +1,7 @@
 /* CONTACTO */
 .contacto-container{
     display:flex;
-    border:1px solid $rojo;
+    border:1px;
     margin:20px;
 }
 .contactoTexto{
@@ -40,6 +40,10 @@
         border:1px solid $rojo;
         border-radius:3px;
         box-sizing:border-box;
+        &:focus{
+            border:$verde 4px solid;
+            transition:background-color 0.3s ease;
+        }
     }
     textarea{
         height:100px;

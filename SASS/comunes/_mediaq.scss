@@ -4,6 +4,16 @@
     h1{
         font-size:3rem;
     }
+
+    header{
+        li{
+            &:hover{
+                transform:none;
+                border-bottom:none;
+            }
+        }
+    }
+
     .banner img{
         width:370px;
     }
