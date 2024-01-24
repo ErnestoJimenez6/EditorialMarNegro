@@ -24,15 +24,9 @@ h2{
     font-size:3rem;
     text-align:center;
 }
-h3{
-    font-size:2rem;
-    color:$blanco;
-    text-shadow:2px 0px 20px $verde;
-    text-align:center;
-}
 body{
     font-family:$font;
-    background-image:url('../img/BG10.png');
+    background-image:url('../img/background.png');
     background-size:cover;
     background-attachment:fixed;
     background-repeat:no-repeat;
@@ -81,8 +75,12 @@ header{
         display:block;
         margin:0 auto;
     }
-    h3{
+    p{
         margin-bottom:20px;
+        font-size:2rem;
+        color:$blanco;
+        text-shadow:2px 0px 20px $verde;
+        text-align:center;
     }
 }
 

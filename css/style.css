@@ -20,16 +20,9 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 2rem;
-  color: #ffffff;
-  text-shadow: 2px 0px 20px #00ff0d;
-  text-align: center;
-}
-
 body {
   font-family: "creepster", sans-serif;
-  background-image: url("../img/BG10.png");
+  background-image: url("../img/background.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -77,8 +70,12 @@ header li:hover {
   display: block;
   margin: 0 auto;
 }
-.banner h3 {
+.banner p {
   margin-bottom: 20px;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 2px 0px 20px #00ff0d;
+  text-align: center;
 }
 
 /* FOOTER */
@@ -135,8 +132,6 @@ footer img {
   background-color: #212121;
   border-color: #b30000;
   color: #00ff0d;
-  transform: scale(1.1, 1.1);
-  transition: 1s;
 }
 
 /* NOSOTROS */
@@ -273,8 +268,8 @@ footer img {
 }
 .formContainer .btnFormulario:hover {
   background-color: #212121;
-  color: #00ff0d;
   border-color: #b30000;
+  color: #00ff0d;
 }
 
 /* MediaQ */
