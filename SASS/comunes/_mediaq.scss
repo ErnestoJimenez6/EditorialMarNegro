@@ -1,6 +1,6 @@
 /* MediaQ */
 /* MOBILE */
-@media only screen and (max-width:480px){
+@media only screen and (max-width:320px){
     header{
         li{
             &:hover{
@@ -17,7 +17,7 @@
         align-items:center;
     }
     .tituloDePag{
-        font-size:4rem;
+        font-size:3rem;
     }
 
     /* Nosotros */
@@ -31,6 +31,11 @@
         'img3';
         grid-template-columns:95%;
         grid-template-rows:repeat(6,200px);
+    }
+
+    /* proximamente */
+    .proxContainer{
+        flex-direction:column;
     }
 
     /* contacto */

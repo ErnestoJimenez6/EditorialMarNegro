@@ -93,6 +93,6 @@ footer{
     img{
         width:25px;
         margin:0 10px;
-        filter:invert(1);
+        filter:drop-shadow(4px 4px 10px $blanco); /*cambiar color de imagen */
     }
 }

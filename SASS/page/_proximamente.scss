@@ -1,11 +1,25 @@
 /* PRÓXIMAMENTE */
-.textoProx{
+.proxContainer{
+    display:flex;
+    margin:20px;
+    padding:20px;
+    align-items:center;
     text-align:center;
-    margin:20px 100px;
+    border:1px;
+}
+.imgContainer{
+    flex:1;
 }
 .imgProx{
     display:block;
     margin:0 auto;
     max-width:50%;
     height:auto;
+}
+.txtcontainer{
+    flex:1;
+    margin:20px;
+    .txtcontainer p{
+        font-size:1.2rem;
+    }
 }

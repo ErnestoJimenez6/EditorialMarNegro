@@ -88,7 +88,7 @@ footer {
 footer img {
   width: 25px;
   margin: 0 10px;
-  filter: invert(1);
+  filter: drop-shadow(4px 4px 10px #ffffff); /*cambiar color de imagen */
 }
 
 /* INDEX */
@@ -191,9 +191,17 @@ footer img {
 }
 
 /* PRÓXIMAMENTE */
-.textoProx {
+.proxContainer {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
   text-align: center;
-  margin: 20px 100px;
+  border: 1px;
+}
+
+.imgContainer {
+  flex: 1;
 }
 
 .imgProx {
@@ -201,6 +209,14 @@ footer img {
   margin: 0 auto;
   max-width: 50%;
   height: auto;
+}
+
+.txtcontainer {
+  flex: 1;
+  margin: 20px;
+}
+.txtcontainer .txtcontainer p {
+  font-size: 1.2rem;
 }
 
 /* CONTACTO */
@@ -274,7 +290,7 @@ footer img {
 
 /* MediaQ */
 /* MOBILE */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 320px) {
   header li:hover {
     transform: none;
     border-bottom: none;
@@ -287,13 +303,17 @@ footer img {
     align-items: center;
   }
   .tituloDePag {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   /* Nosotros */
   .gridConteiner {
     grid-template-areas: "txt1" "img1" "txt2" "img2" "txt3" "img3";
     grid-template-columns: 95%;
     grid-template-rows: repeat(6, 200px);
+  }
+  /* proximamente */
+  .proxContainer {
+    flex-direction: column;
   }
   /* contacto */
   .contacto-container {
