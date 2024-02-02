@@ -99,7 +99,7 @@ footer a:hover img {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: darkslategrey;
+  background-color: #212121;
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -289,7 +289,7 @@ footer a:hover img {
 
 /* MediaQ */
 /* MOBILE */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
   header li:hover {
     transform: none;
     border-bottom: none;
@@ -306,7 +306,7 @@ footer a:hover img {
     align-items: center;
   }
   .tituloDePag {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   /* Nosotros */
   .gridConteiner {

@@ -1,6 +1,6 @@
 /* MediaQ */
 /* MOBILE */
-@media only screen and (max-width:320px){
+@media only screen and (max-width:480px){
     header{
         li{
             &:hover{
@@ -23,7 +23,7 @@
         align-items:center;
     }
     .tituloDePag{
-        font-size:3rem;
+        font-size:4rem;
     }
 
     /* Nosotros */
