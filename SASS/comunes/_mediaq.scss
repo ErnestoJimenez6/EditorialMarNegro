@@ -9,8 +9,14 @@
             }
         }
     }
-    .banner img{
-        width:370px;
+    .banner{
+        img{
+            width:80%;
+            height:auto;
+        }
+        p{
+            font-size:1rem;
+        }
     }
     .flex{
         flex-direction:column;

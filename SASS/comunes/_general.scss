@@ -3,7 +3,7 @@
 $blanco:#ffffff;
 $rojo:#b30000;
 $negro:#212121;
-$verde:#00ff0d;
+$verde:#4dff00;
 $font:'creepster',sans-serif;
 
 *{
@@ -93,6 +93,9 @@ footer{
     img{
         width:25px;
         margin:0 10px;
-        filter:drop-shadow(4px 4px 10px $blanco); /*cambiar color de imagen */
+        transition:filter 0.3s ease;
+    }
+    a:hover img{
+        filter:drop-shadow(0px 0px 10px $blanco);
     }
 }

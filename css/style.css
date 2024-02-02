@@ -49,9 +49,9 @@ header li {
   text-decoration: none;
 }
 header li:hover {
-  color: #00ff0d;
+  color: #4dff00;
   transform: scale(1.1, 1.1);
-  border-bottom: 3px solid #00ff0d;
+  border-bottom: 3px solid #4dff00;
   transition: 0.3s;
 }
 
@@ -74,7 +74,7 @@ header li:hover {
   margin-bottom: 20px;
   font-size: 2rem;
   color: #ffffff;
-  text-shadow: 2px 0px 20px #00ff0d;
+  text-shadow: 2px 0px 20px #4dff00;
   text-align: center;
 }
 
@@ -88,7 +88,10 @@ footer {
 footer img {
   width: 25px;
   margin: 0 10px;
-  filter: drop-shadow(4px 4px 10px #ffffff); /*cambiar color de imagen */
+  transition: filter 0.3s ease;
+}
+footer a:hover img {
+  filter: drop-shadow(0px 0px 10px #ffffff);
 }
 
 /* INDEX */
@@ -112,10 +115,6 @@ footer img {
 .carousel-caption h2 {
   color: #ffffff;
 }
-.carousel-caption p {
-  color: #ffffff;
-  font-size: 4rem;
-}
 
 /* LIBROS */
 .card {
@@ -131,7 +130,7 @@ footer img {
 .btn:hover {
   background-color: #212121;
   border-color: #b30000;
-  color: #00ff0d;
+  color: #4dff00;
 }
 
 /* NOSOTROS */
@@ -163,7 +162,7 @@ footer img {
   margin: 0 25px;
   padding: 5px;
   font-weight: 600;
-  text-shadow: 2px 0px 20px #00ff0d;
+  text-shadow: 2px 0px 20px #4dff00;
 }
 
 .gridImg1 {
@@ -267,7 +266,7 @@ footer img {
   box-sizing: border-box;
 }
 .formContainer input[type=text]:focus, .formContainer input[type=email]:focus, .formContainer textarea:focus {
-  border: #00ff0d 4px solid;
+  border: #4dff00 4px solid;
   transition: background-color 0.3s ease;
 }
 .formContainer textarea {
@@ -285,7 +284,7 @@ footer img {
 .formContainer .btnFormulario:hover {
   background-color: #212121;
   border-color: #b30000;
-  color: #00ff0d;
+  color: #4dff00;
 }
 
 /* MediaQ */
@@ -296,7 +295,11 @@ footer img {
     border-bottom: none;
   }
   .banner img {
-    width: 370px;
+    width: 80%;
+    height: auto;
+  }
+  .banner p {
+    font-size: 1rem;
   }
   .flex {
     flex-direction: column;
