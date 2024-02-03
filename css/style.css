@@ -10,7 +10,7 @@ html {
   font-family: "creepster", sans-serif;
 }
 
-h1 {
+.tituloDePag {
   font-size: 8rem;
   text-align: center;
 }
@@ -65,7 +65,7 @@ header li:hover {
   color: #ffffff;
 }
 .banner img {
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -207,6 +207,7 @@ footer a:hover img {
   margin: 0 auto;
   max-width: 50%;
   height: auto;
+  box-shadow: 0px 0px 25px #4dff00;
 }
 
 .txtcontainer {
@@ -288,7 +289,7 @@ footer a:hover img {
 
 /* MediaQ */
 /* MOBILE */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   header li:hover {
     transform: none;
     border-bottom: none;
@@ -316,6 +317,42 @@ footer a:hover img {
   /* proximamente */
   .proxContainer {
     flex-direction: column;
+  }
+  /* contacto */
+  .contacto-container {
+    flex-direction: column;
+  }
+  .iframe-container,
+  .formContainer {
+    width: 100%;
+  }
+  iframe {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 501px) and (max-width: 992px) {
+  header li:hover {
+    transform: none;
+    border-bottom: none;
+  }
+  .banner img {
+    width: 90%;
+    height: auto;
+  }
+  .banner p {
+    font-size: 1.5rem;
+  }
+  .tituloDePag {
+    font-size: 4rem;
+  }
+  /* proximamente */
+  .imgProx {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
   }
   /* contacto */
   .contacto-container {

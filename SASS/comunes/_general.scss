@@ -16,7 +16,7 @@ html{
     font-family:$font;
 }
 
-h1{
+.tituloDePag{
     font-size:8rem;
     text-align:center;
 }
@@ -70,7 +70,7 @@ header{
     text-align:center;
     color:$blanco;
     img{
-        max-width:100%;
+        max-width:95%;
         height:auto;
         display:block;
         margin:0 auto;
