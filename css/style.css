@@ -98,21 +98,23 @@ footer a:hover img {
 /* INDEX */
 /*(achicar carousel)*/
 .carousel-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
+  max-width: 800px;
   background-position: center;
   overflow: hidden;
+  /*    position:relative;
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+  overflow:hidden; */
 }
 
-.carousel-item img {
-  max-height: 100vh;
-  width: auto;
-  height: 1000px;
-  object-fit: cover;
-}
-
+/* .carousel-item img{
+    max-height:100vh;
+    width:auto;
+    height:1000px;
+    object-fit:cover;
+} */
 .carousel-caption h2 {
   color: #ffffff;
 }
@@ -297,7 +299,7 @@ footer a:hover img {
     border-bottom: none;
   }
   .banner img {
-    width: 80%;
+    max-width: 100%;
     height: auto;
   }
   .banner p {
@@ -340,11 +342,11 @@ footer a:hover img {
     border-bottom: none;
   }
   .banner img {
-    width: 90%;
+    max-width: 100%;
     height: auto;
   }
   .banner p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .tituloDePag {
     font-size: 4rem;
