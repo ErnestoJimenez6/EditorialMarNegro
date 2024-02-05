@@ -23,6 +23,7 @@ html{
 h2{
     font-size:3rem;
     text-align:center;
+    color:$verde;
 }
 body{
     font-family:$font;
@@ -70,7 +71,7 @@ header{
     text-align:center;
     color:$blanco;
     img{
-        max-width:30%;
+        max-width:33%;
         height:auto;
         display:block;
         margin:0 auto;

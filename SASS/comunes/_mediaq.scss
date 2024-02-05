@@ -23,7 +23,7 @@
         align-items:center;
     }
     .tituloDePag{
-        font-size:4rem;
+        font-size:3rem;
     }
 
     /* Nosotros */
@@ -80,6 +80,11 @@
         font-size:4rem;
     }
 
+    /* index */
+    .carousel-container{
+        max-width: 100%;
+    }
+    
     /* proximamente */
     .imgProx{
         display:block;

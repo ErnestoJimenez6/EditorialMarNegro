@@ -18,6 +18,7 @@ html {
 h2 {
   font-size: 3rem;
   text-align: center;
+  color: #4dff00;
 }
 
 body {
@@ -65,7 +66,7 @@ header li:hover {
   color: #ffffff;
 }
 .banner img {
-  max-width: 30%;
+  max-width: 33%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -98,25 +99,9 @@ footer a:hover img {
 /* INDEX */
 /*(achicar carousel)*/
 .carousel-container {
-  max-width: 800px;
+  max-width: 700px;
   background-position: center;
   overflow: hidden;
-  /*    position:relative;
-  width:100%;
-  height:100vh;
-  background-size:cover;
-  background-position:center;
-  overflow:hidden; */
-}
-
-/* .carousel-item img{
-    max-height:100vh;
-    width:auto;
-    height:1000px;
-    object-fit:cover;
-} */
-.carousel-caption h2 {
-  color: #ffffff;
 }
 
 /* LIBROS */
@@ -124,6 +109,10 @@ footer a:hover img {
   font-family: "creepster", sans-serif;
   background-color: #212121;
   color: #ffffff;
+}
+
+.card-title {
+  color: #4dff00;
 }
 
 .btn {
@@ -310,7 +299,7 @@ footer a:hover img {
     align-items: center;
   }
   .tituloDePag {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   /* Nosotros */
   .gridConteiner {
@@ -350,6 +339,10 @@ footer a:hover img {
   }
   .tituloDePag {
     font-size: 4rem;
+  }
+  /* index */
+  .carousel-container {
+    max-width: 100%;
   }
   /* proximamente */
   .imgProx {
